@@ -20,4 +20,4 @@ def maiuscula_nome_coluna(dataframe):
 pipeline = df.pipe(media_idade_por_grupo, coluna='nome').pipe(maiuscula_nome_coluna)
 
 # mostrar o resultado do pipeline
-# print(pipeline)
+print(pipeline)
